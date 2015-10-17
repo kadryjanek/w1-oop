@@ -45,6 +45,17 @@ abstract class AbstractPerson
         return $this->surname;
     }
     
+    public function setAge($age)
+    {
+        $this->age = $age;
+        return $this;
+    }
+    
+    public function getAge()
+    {
+        return $this->age;
+    }
+    
     public function hello()
     {
         // return $this->name . " " . $this->surname;
